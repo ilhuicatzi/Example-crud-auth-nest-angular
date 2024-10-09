@@ -1,0 +1,14 @@
+<main>
+    <nav class="flex justify-between items-center gap-5 px-10 py-3">
+        <h1 class="text-3xl font-bold">
+            <a routerLink="/" routerLinkActive="active">App</a>
+        </h1>
+        <ul class="flex items-center gap-2">
+        <li><a routerLink="/auth/register" routerLinkActive="active" class="px-2 py-1 rounded-md hover:bg-zinc-300">Register</a></li>
+        <li><a routerLink="/auth/login" routerLinkActive="active" class="px-2 py-1 rounded-md hover:bg-zinc-300">Login</a></li>
+        <li><a routerLink="/post/dashboard" routerLinkActive="active" class="px-2 py-1 rounded-md hover:bg-zinc-300">Dashboard</a></li>
+        <li><a routerLink="/post/new" routerLinkActive="active" class="px-2 py-1 rounded-md hover:bg-zinc-300">Create Post</a></li>
+        </ul>
+    </nav>
+</main>
+<router-outlet />
